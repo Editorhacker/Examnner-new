@@ -171,5 +171,5 @@ app.use((err, req, res, next) => {
 
 // Start Server
 server.listen(PORT, () => {
-    console.log(`App running on http://localhost:${PORT}`);
+  console.log(`✅ App running on port ${PORT}`);
 });
