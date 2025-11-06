@@ -170,6 +170,7 @@ app.use((err, req, res, next) => {
 });
 
 // Start Server
-server.listen(PORT, () => {
-  console.log(`✅ App running on port ${PORT}`);
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`App running on port ${PORT}`);
 });
+
